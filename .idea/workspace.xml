@@ -4,25 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3201d546-33b7-4c46-b99e-94dff125fd0f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/BaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/Impl/PersonDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/Impl/TaskDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/Impl/sequencer/PersonIdSequencer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/Impl/sequencer/TaskIdSequencer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/PersonDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/TaskDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/model/Task.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/G45_Lexicon/AppTest.java" afterDir="false" />
+    <list default="true" id="3201d546-33b7-4c46-b99e-94dff125fd0f" name="Changes" comment="todo: MVC implimentation need tobe updated.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/Impl/TaskDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/G45_Lexicon/dao/Impl/TaskDAOImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +49,13 @@
       <option name="presentableId" value="Default" />
       <updated>1669278849383</updated>
     </task>
+    <task id="LOCAL−00001" summary="todo: MVC implimentation need tobe updated.">
+      <created>1669385122361</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1669385122361</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,5 +68,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="todo: MVC implimentation need tobe updated." />
+    <option name="LAST_COMMIT_MESSAGE" value="todo: MVC implimentation need tobe updated." />
   </component>
 </project>

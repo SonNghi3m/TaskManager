@@ -7,7 +7,7 @@ import G45_Lexicon.model.Task;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
+//
 //Singleton implementation
 //step 1: define a static field with the class type (In this scenario, class type is:  PersonDAOImpl)
 //step 2: make constructor private
