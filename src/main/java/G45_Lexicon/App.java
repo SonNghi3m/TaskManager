@@ -1,13 +1,12 @@
 package G45_Lexicon;
 
-/**
- * Hello world!
- *
- */
-public class App 
+import G45_Lexicon.controller.Controller;
+
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        Controller controller = new Controller();
+        controller.doMainMenu();
     }
 }

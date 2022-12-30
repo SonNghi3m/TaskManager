@@ -14,13 +14,20 @@ public class Person {
 
     //constructors
     public Person() {}
-    public Person(String fullName, String userName, String password, Task tasks, Role role) {
+    public Person(String fullName, String userName, String password, Role role) {
         this();
         setFullName(fullName);
         setUserName(userName);
         setPassword(password);
-        setTasks(tasks);
         setRole(role);
+    }
+    public Person(Integer personId, String fullName, String userName, String password, Role role) {
+        this(fullName, userName, password, role);
+        setPersonId(personId);
+    }
+    public Person(String fullName, String userName, String password, Task tasks, Role role) {
+        this(fullName, userName, password, role);
+        setTasks(tasks);
     }
     public Person(Integer personId, String fullName, String userName, String password, Task tasks, Role role) {
         this(fullName, userName, password, tasks, role);

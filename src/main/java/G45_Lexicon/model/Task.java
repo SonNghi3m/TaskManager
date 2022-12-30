@@ -14,10 +14,27 @@ public class Task {
     private boolean isAssigned;
     private Person assignee;
 
+    private Integer assigneeId;
+
     //Constructors
     public Task(){}
-    public Task(Integer taskId, String title, String description, LocalDate deadLine, boolean doneStatus, boolean isAssigned, Person assignee) {
-        setTaskId(taskId);
+
+    public Task(String title, String description, LocalDate deadLine, boolean doneStatus, boolean isAssigned) {
+        setTitle(title);
+        setDescription(description);
+        setDeadLine(deadLine);
+        setDoneStatus(doneStatus);
+        setAssigned(isAssigned);
+    }
+    public Task(String title, String description, LocalDate deadLine, boolean doneStatus, Person assignee) {
+        setTitle(title);
+        setDescription(description);
+        setDeadLine(deadLine);
+        setDoneStatus(doneStatus);
+        setAssignee(assignee);
+    }
+
+    public Task(String title, String description, LocalDate deadLine, boolean doneStatus, boolean isAssigned, Person assignee) {
         setTitle(title);
         setDescription(description);
         setDeadLine(deadLine);
@@ -26,6 +43,24 @@ public class Task {
         setAssignee(assignee);
     }
 
+    public Task(String title, String description, LocalDate deadLine, boolean doneStatus, boolean isAssigned, Integer assigneeId) {
+        setTitle(title);
+        setDescription(description);
+        setDeadLine(deadLine);
+        setDoneStatus(doneStatus);
+        setAssigned(isAssigned);
+        setAssigneeId(assigneeId);
+    }
+
+    public Task(Integer taskId, String title, String description, LocalDate deadLine, boolean doneStatus, boolean isAssigned, Integer assigneeId) {
+        setTaskId(taskId);
+        setTitle(title);
+        setDescription(description);
+        setDeadLine(deadLine);
+        setDoneStatus(doneStatus);
+        setAssigned(isAssigned);
+        setAssigneeId(assigneeId);
+    }
     //methods
 
 
@@ -52,10 +87,19 @@ public class Task {
                 ", doneStatus=" + doneStatus +
                 ", isAssigned=" + isAssigned +
                 ", assignee=" + assignee +
+                ", assigneeId=" + assigneeId +
                 '}';
     }
 
     //setters & getters
+
+    public Integer getAssigneeId() {
+        return assigneeId;
+    }
+
+    public void setAssigneeId(Integer assigneeId) {
+        this.assigneeId = assigneeId;
+    }
 
     public Integer getTaskId() {
         return taskId;
@@ -78,7 +122,7 @@ public class Task {
     }
 
     public void setDescription(String description) {
-        description = description;
+        this.description = description;
     }
 
     public LocalDate getDeadLine() {

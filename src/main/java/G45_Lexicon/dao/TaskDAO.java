@@ -8,4 +8,8 @@ import java.util.Optional;
 public interface TaskDAO extends BaseDAO<Task> {
     List<Task> findByDoneStatus(boolean doneStatus);
     List<Task> findByTitle(String title);
+
+    List<Task> findByUsername(String username);
+    List<Task> findByRole(String role);
+    List<Task> findByPersonId(Integer personId);
 }
